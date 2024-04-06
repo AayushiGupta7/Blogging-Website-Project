@@ -1,19 +1,23 @@
 # Django Blogging Platform
+A blogging website is an online platform where individuals or businesses can create and publish content as blog posts. Blogs are usually written in a personal or conversational tone and can cover a wide range of topics including news, opinions, reviews, tutorials, and personal experiences.
 
-A regularly updated blogging platform built with the Django framework. This platform is designed for personal use or to fulfill a business need, providing a robust and customizable solution for managing and publishing blog posts.
+Commands to run this Project
 
-## Project Summary and Features
- * Crud operation on blogs
- * Custom user model
- * Registration
- * Authentication through username plus email
- * Personal profile management
- * Filter blogs by different criteria (title, category, tags)
- * Search blogs by different criteria
- * Like blogs
- * Comment and replies on blogs
- * Follow unfollow other users
- * Implementing generic relations
- * Notification system
- * Mute unmute notifications
- * Deployment on pythonanywhere
+pip install virtualenv
+
+virtualenv venv_name
+
+cd venv_name/Scripts
+
+activate
+
+cd ../../
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+python manage.py runserver
+
+
+
